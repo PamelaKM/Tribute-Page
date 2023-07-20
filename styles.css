@@ -1,0 +1,53 @@
+main{
+background: linear-gradient(to top, rgb(182, 244, 146), rgb(51, 139, 147));
+
+}
+h1{
+  font-size: 33px;
+  padding-top: 16px; 
+}
+h1, p{
+  font-family: Helvetica;
+  text-align: center;
+}
+#img-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#image{
+  display: block;
+  width: 70%;
+  height: auto;
+  max-width: 100%;
+}
+#img-caption{
+  font-size: 18px;
+  font-family: Georgia; 
+}
+#tribute-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2{
+  font-family: Papyrus;
+  border-bottom:  4px;
+  border-bottom-style: dotted;
+}
+ul{
+  font-family: Georgia;
+  display: block;
+  margin: auto;
+}
+ul li{
+  margin: 8px;
+}
+#speech-tribute{
+  font-family: lucida sans;
+  padding: 28px;
+}
+h3 a{
+  color: #088F8F	
+}
